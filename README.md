@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+## Trustworthy AI in Medical Imaging 
 
-You can use the [editor on GitHub](https://github.com/trustworthy-AI-healthcare/trustworthy-AI-healthcare.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+This project aims at fostering an inter-disciplinary discussion on Trustworthy AI in Medical Imaging. The tutorial features a panel of experts in medical imaging, AI, cryptography, medicine, law and ethics, which will illustrate and discuss the current state-of-the-art and challenges for the development of Trustworthy AI in healthcare.
+Trustworthiness is rapidly becoming a requirement of paramount importance for any real-life deployment of artificial intelligence (AI). 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The recent EU High-level expert group on artificial intelligence  identifies the following key components of Trustworthy AI: technical robustness, safety, accuracy, privacy, data governance, explainability and bias assessment.
 
-### Markdown
+The problem of Trustworthy AI in medical imaging raises a broad range of technical and societal questions, which require a strong interplay between communities to match methodological and technical advances with a better understanding of the ethical and legal implications of the deployment of IA in real life. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+Proposed schedule:
 
-# Header 1
-## Header 2
-### Header 3
+-	Introduction
+-	Part 1: Privacy Preserving Machine Learning 
+The goal of Privacy Preserving Machine Learning (PPML) is to identify customized algorithms that would, by design, preserve the privacy of the processed data. Fully homomorphic encryption or secure multi-party computation are popular cryptographic techniques for PPML. Yet, these often incur high computational and/or communication costs. In this talk, we will analyse the tension between ML techniques and relevant cryptographic tools, and overview existing solutions addressing privacy requirements.
+-	Part 2: Technical Robustness and Bias in Medical Imaging
+Technical robustness refers to the capacity of AI systems to be adverse to risks and to behave reliably, minimising and preventing unintentional and unexpected harm. This talk will cover three of the key points that robust AI systems should address: 1) safety and fall-back plans; 2) accuracy; and 3) reliability and reproducibility. We will discuss to which extent these are being address in current medical imaging applications, and conclude with an overview of the effect of bias on a system’s robustness, and related mitigation strategies. 
+-	Part 3: Federated Learning for Data Governance in Collaborative AI
+Federated Learning (FL) is an attractive Data Governance solution in healthcare to avoid sharing raw data between hospitals. Applying FL to real-life is however challenging, due to the sensitivity to data heterogeneity, or the lack of standards for robust and safe FL infrastructures. This talk will cover the state of the art and principles of FL, with current applications in healthcare. We will discuss measures to mitigate the problem of bias and security, and analyse current open-source initiatives bringing FL in hospitals. 
+- Part 4: Law and Ethics of Trustworthy AI in Medical Applications.
+Adopting AI in healthcare requires the trust of all users and, above all, respect for the social acceptability of algorithms. The is a risk of perpetuating existing societal biases through biases in data and algorithms, and the opacity of complex AI processes. The legal system has a major role in building the confidence of all users and ensuring informed consent. Raising public awareness on AI in healthcare and understanding its implications are essential to ensure transparency.  An ethical debate on AI in healthcare becomes critical.
+-	Part 5: Clinical Use Case: Federated Learning in Multi-Centric Oncology Studies
+This talk will present  a French Federated Learning initiative for the collaborative analysis of 3D PET/CT images and clinical data in oncology. This FL use-case deploys Fed-BioMed , an open-source FL framework, in a real-word healthcare scenario composed by a network of 10 hospitals. The interdisciplinary nature of the project requires an efficient collaboration between different actors: researchers, engineers, medical doctors, and hospitals’ IT System Departments.
+-	Wrap-up & Conclusion
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/trustworthy-AI-healthcare/trustworthy-AI-healthcare.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
