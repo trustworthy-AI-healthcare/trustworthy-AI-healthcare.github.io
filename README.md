@@ -1,3 +1,7 @@
+---
+permalink: index.html
+---
+
 ## Trustworthy AI in Medical Imaging 
 
 This project aims at fostering an inter-disciplinary discussion on Trustworthy AI in Medical Imaging. The tutorial features a panel of experts in medical imaging, AI, cryptography, medicine, law and ethics, which will illustrate and discuss the current state-of-the-art and challenges for the development of Trustworthy AI in healthcare.
